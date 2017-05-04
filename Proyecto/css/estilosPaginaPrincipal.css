@@ -1,0 +1,72 @@
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section {
+
+    float: left;
+    margin-left: 19px;
+
+}
+
+section .row {
+
+    margin-bottom: 5px;
+    padding-right: 0px;
+
+}
+
+section h3 {
+
+    color: green;
+
+}
+
+figcaption {
+
+    margin-bottom: 10px;
+
+}
+
+aside {
+
+    float: right;
+    margin-left: 5px;
+
+}
+
+aside li {
+
+    list-style: none;
+
+}
+
+article li a {
+
+    color: white;
+
+}
+
+.comprarArt, .verArt {
+
+    margin-top: 10px;
+
+}
+
+body{
+
+ background:url('../imagenes/fondoBody.jpg') repeat 0 0;
+ background-size: cover;  
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+ color:white;
+
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+
+        <h2>Inventario</h2>
+
+        <!-- Busqueda -->
+
+        <div class="row" id="busqueda">
+
+            <!-- Categorias -->
+
+            <div class="col-md-3">
+
+                <label for="categ">Categorias</label>
+
+                <select class="" name="categ">
+
+                    <option value="todas">Todas</option>
+                    <option value="computadoras">Computadoras</option>
+                    <option value="partesCompuatdoras">Partes de computadoras</option>
+                    <option value="juegos">Juegos</option>
+
+                </select>
+
+            </div>
+
+            <!-- Buscar -->
+
+            <div class="col-md-3">
+
+                <div class="input-group">
+
+                    <input class="form-control" type="text" name="" value="">
+
+                    <span class="input-group-btn">
+
+                        <button class="btn btn-success" type="button" name="button">Buscar</button>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Modo edicion -->
+
+        <div class="row" id="edicion">
+
+            <div class="col-md-3">
+
+                <div class="input-group">
+
+                    <div class="checkbox">
+
+                        <label><input type="checkbox" name="" value="hhjvhjvjh">Modo edicion</label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Tabla -->
+
+        <div class="container" id="tabla">
+
+            <div class="panel panel-success panel-responsive">
+
+                <div class="panel-heading" id="encabezadoTabla">
+                    <h4>Articulos</h4>
+                </div>
+
+                <div class="panel-body table-responsive">
+
+                    <table class="table table-hover table-responsive table-striped">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tipo</th>
+                                <th>Nombre</th>
+                                <th>Marca</th>
+                                <th>Cantidad</th>
+                                <th>Caracteristicas</th>
+                                <th></th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr id="art1">
+
+                                <td>
+                                    <select name="tipo">
+                                        <option value="Computadora" selected>Computadora</option>
+                                        <option value="Partes de computadora">Parte de computadora</option>
+                                        <option value="Juego">Juego</option>
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="Alienware" placeholder="Alienware">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="Dell" placeholder="Dell">
+                                </td>
+
+                                <td>
+                                    <input class="cantidad" type="number" min="0" name="cantidad" value="12" placeholder="12">
+                                </td>
+
+                                <td>
+                                    <textarea class="caract" name="caract" rows="2" cols="30"
+                                    value=""></textarea>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+
+                            </tr id="art2">
+
+                            <tr>
+
+                                <td>
+                                    <select name="tipo">
+                                        <option value="Computadora">Computadora</option>
+                                        <option value="Partes de computadora">Parte de computadora</option>
+                                        <option value="Juego" selected>Juego</option>
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="Mainkra" placeholder="Alienware">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="No se" placeholder="Dell">
+                                </td>
+
+                                <td>
+                                    <input class="cantidad" type="number" min="0" name="cantidad" value="23" placeholder="23">
+                                </td>
+
+                                <td>
+                                    <textarea class="caract" name="caract" rows="2" cols="30"></textarea>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+
+                            </tr>
+
+                            <tr id="art3">
+
+                                <td>
+                                    <select name="tipo">
+                                        <option value="Computadora">Computadora</option>
+                                        <option value="Partes de computadora" selected>Parte de computadora</option>
+                                        <option value="Juego">Juego</option>
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="Carburador" placeholder="Alienware">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="ACME" placeholder="Dell">
+                                </td>
+
+                                <td>
+                                    <input class="cantidad" type="number" min="0" name="cantidad" value="8" placeholder="23">
+                                </td>
+
+                                <td>
+                                    <textarea class="caract" name="caract" rows="2" cols="30"></textarea>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+
+                            </tr>
+
+                            <tr id="artNuevo">
+
+                                <td>
+                                    <select name="tipo">
+                                        <option value="Computadora" selected>Computadora</option>
+                                        <option value="Partes de computadora">Parte de computadora</option>
+                                        <option value="Juego">Juego</option>
+                                    </select>
+                                </td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="" placeholder="Alienware">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="" placeholder="Dell">
+                                </td>
+
+                                <td>
+                                    <input class="cantidad" type="number" min="0" name="cantidad" value="0" placeholder="23">
+                                </td>
+
+                                <td>
+                                    <textarea class="caract" name="caract" rows="2" cols="30"></textarea>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="agregar" class="agregar btn-block btn-lg btn-success">Agregar</button>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

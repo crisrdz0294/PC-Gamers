@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+
+        <h2>Usuarios</h2>
+
+        <!-- Busqueda -->
+
+        <div class="row" id="busqueda">
+
+            <!-- Categorias -->
+
+            <div class="col-md-3">
+
+                <label for="categ">Tipos</label>
+
+                <select class="" name="categ">
+
+                    <option value="administrador">Administradores</option>
+                    <option value="usuarios">Usuarios</option>
+                  
+
+                </select>
+
+            </div>
+
+            <!-- Buscar -->
+
+            <div class="col-md-3">
+
+                <div class="input-group">
+
+                    <input class="form-control" type="text" name="" value="">
+
+                    <span class="input-group-btn">
+
+                        <button class="btn btn-success" type="button" name="button">Buscar</button>
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Modo edicion -->
+
+        <div class="row" id="edicion">
+
+            <div class="col-md-3">
+
+                <div class="input-group">
+
+                    <div class="checkbox">
+
+                        <label><input type="checkbox" name="" value="hhjvhjvjh">Modo edicion</label>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Tabla -->
+
+        <div class="container" id="tabla">
+
+            <div class="panel panel-success panel-responsive" id="tablaUsuario">
+
+                <div class="panel-heading" id="encabezadoTabla">
+                    <h4>Usuarios</h4>
+                </div>
+
+                <div class="panel-body table-responsive">
+
+                    <table class="table table-hover table-responsive table-striped" >
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Cedula</th>
+                                <th>Nombre</th>
+                                <th>Primer apellido</th>
+                                <th>Segundo apellido</th>
+                                <th>Tipo usuario</th>
+                                <th>Opcion</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr id="art1">
+
+                            	<td>
+                            		<input class="nombre" type="text" name="cedula" value="702270570" placeholder="Ingrese una cedula">
+                            	</td>
+
+                            	<td>
+                            		<input class="nombre" type="text" name="nombre" value="Cristopher" placeholder="Ingrese un nombre">
+                            	</td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="apellido1" value="Rodriguez" placeholder="Ingrese el primer apellido">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="apellido2" value="Solorzano" placeholder="Ingrese el segundo apellido">
+                                </td>
+
+        
+
+                                 <td>
+                                    <select name="tipo">
+                                        <option value="administrador" selected>Administrador</option>
+                                        <option value="usuario">usuario</option>
+                                    </select>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+
+                            </tr id="art2">
+
+                            <tr>
+
+                            	<td>
+                            		<input class="nombre" type="text" name="cedula" value="1234567" placeholder="Ingrese una cedula">
+                            	</td>
+
+                                <td>
+                            		<input class="nombre" type="text" name="nombre" value="Patrick" placeholder="Ingrese un nombre">
+                            	</td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="Conejo" placeholder="Ingrese el primer apellido">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="Rojas" placeholder="Ingrese el segundo apellido">
+                                </td>
+
+                                 <td>
+                                    <select name="tipo">
+                                        <option value="administrador">Administrador</option>
+                                        <option value="Partes de computadora" selected="">Usuario</option>
+                                    </select>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+
+                            </tr>
+
+                            <tr id="art3">
+
+                            <td>
+                            		<input class="nombre" type="text" name="cedula" value="7654321" placeholder="Ingrese una cedula">
+                            	</td>
+
+                                <td>
+                            		<input class="nombre" type="text" name="nombre" value="Carlos" placeholder="Ingrese un nombre">
+                            	</td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="Perez" placeholder="Ingrese el primer apellido">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="Mata" placeholder="Ingrese el segundo apellido">
+                                </td>
+
+          
+
+                                <td>
+                                    <select name="tipo">
+                                        <option value="administrador" selected>Administrador</option>
+                                        <option value="usuario">usuario</option>
+                                    </select>
+                                </td>
+
+                                <td>
+
+                                    <button type="button" name="eliminar" class="eliminar btn-block btn-lg">Eliminar</button>
+
+                                </td>
+                            </tr>
+
+                            <tr id="artNuevo">
+
+                                <td>
+                            		<input class="nombre" type="text" name="cedula" value="" placeholder="Ingrese una cedula">
+                            	</td>
+
+                                <td>
+                            		<input class="nombre" type="text" name="nombre" value="" placeholder="Ingrese un nombre">
+                            	</td>
+
+                                <td>
+                                    <input class="nombre" type="text" name="nombre" value="" placeholder="Ingrese el primer apellido">
+                                </td>
+
+                                <td>
+                                    <input class="marca" type="text" name="marca" value="" placeholder="Ingrese el segundo apellido">
+                                </td>
+
+          
+
+                                <td>
+                                    <select name="tipo">
+                                    	<option value="0" selected disabled="true">Elija una opcion</option>
+                                        <option value="administrador">Administrador</option>
+                                        <option value="usuario">Usuario</option>
+                                    </select>
+                                </td>
+                                <td>
+
+                                    <button type="button" name="agregar" class="agregar btn-block btn-lg btn-success">Agregar</button>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

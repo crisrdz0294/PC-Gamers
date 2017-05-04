@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/estilosPaginaPrincipal.css">
+    <script src="../js/jQuery.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../js/accionesPaginaPrincipal.js"></script>
+    <script src="../js/jQuery2.js"></script>
+    <script src="../js/jsPaginaPrincipal.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/estilosInventario.css">
+    <title>PC Gamers</title>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse" id="barra">
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+            <a class="navbar-brand" href="javascript:window.location.reload()">PC Gamers</a>
+                <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+
+               
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="javascript:cargarPagina('../interfaz/Inventario/inventario.html')">Inventario</a></li>
+                    <li><a href="javascript:cargarPagina('../interfaz/Usuarios/IInsertarUsuario.html')">Usuarios</a></li>
+                   
+
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-user"></span>
+                            Usuario
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="contenedor">
+
+      <section id="seccion">
+
+            <div class="container">
+
+            <div class="row">
+
+                <article>
+
+                    <header>
+
+                        <h3>Compu gamer</h3>
+
+                    </header>
+
+                    <div class="col-md-3">
+
+                        <figure class="imgArt">
+
+                          <img class = "img-responsive" src="../imagenes/articulos/computadoras/computadoraGamer.jpg">
+
+                          <figcaption>
+
+                              <button class="btn btn-success comprarArt"type="button" data-toggle="modal" data-target="#modalComprar" name="comprar" onclick="compra()">Comprar</button>
+                              <button class="btn btn-success verArt" type="button" data-toggle="modal" data-target="#verarticulo1" name="ver">Ver</button>
+
+
+                              <div id="verarticulo1" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+
+                                  <div class="modal-dialog">
+
+                                      <div class="modal-content">
+
+                                          <div class="modal-header">
+
+                                              <button type="button" class="close" data-dismiss="modal" name="button">&times;</button>
+
+                                              <h4 class="modal-title">Compu Gamer</h4>
+
+                                          </div>
+
+                                          <div class="modal-body">
+
+                                              <p>Compu Gamer Papu Pro</p>
+
+
+                                              <ul class="caract">
+                                                  <li>Tanto de RAM</li>
+                                                  <li>Tanto de video</li>
+                                                  <li>Tanto de HDD</li>
+                                              </ul>
+
+                                          </div>
+
+                                          <div class="modal-footer">
+
+                                              <button class="btn btn-success comprarArt"type="button" name="comprar" onclick="compra()">Comprar</button>
+
+                                          </div>
+
+                                      </div>
+
+                                  </div>
+
+                              </div>
+
+
+
+                          </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <div class="col-md-9">
+
+                        <ul>
+                            <li>Tanto de RAM</li>
+                            <li>Tanto de video</li>
+                            <li>Tanto de HDD</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="row">
+
+                <article>
+
+                    <header>
+
+                        <h3>Juego</h3>
+
+                    </header>
+
+                    <div class="col-md-3">
+
+                        <figure>
+
+                          <img class = "img-responsive" src="../imagenes/articulos/juegos/call of duty.jpg">
+
+                          <figcaption>
+
+                              <button class="btn btn-success comprarArt"type="button" name="comprar" onclick="compra()">Comprar</button>
+                              <button class="btn btn-success verArt" type="button" data-toggle="modal" data-target="#modalVer2" name="ver">Ver</button>
+
+                              <div id="modalVer2" class="modal fade" role="dialog" data-backdrop="static" data-keyboard="false">
+
+                                  <div class="modal-dialog">
+
+                                      <div class="modal-content">
+
+                                          <div class="modal-header">
+
+                                              <button type="button" class="close" data-dismiss="modal" name="button">&times;</button>
+
+                                              <h4 class="modal-title">Juego</h4>
+
+                                          </div>
+
+                                          <div class="modal-body">
+
+                                              <p>Juego</p>
+
+                                              
+
+                                              <ul class="caract">
+                                                  <li>De tal genero</li>
+                                                  <li>Requisitos de video</li>
+                                                  <li>Requisitos procesador</li>
+                                              </ul>
+
+                                          </div>
+
+                                          <div class="modal-footer">
+
+                                              <button class="btn btn-success comprarArt"type="button" name="comprar" onclick="compra()">Comprar</button>
+
+                                          </div>
+
+                                      </div>
+
+                                  </div>
+
+                              </div>
+
+                          </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <div class="col-md-7">
+
+                        <ul>
+                            <li>De tal genero</li>
+                            <li>Requisitos de video</li>
+                            <li>Requisitos procesador</li>
+                        </ul>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Aside -->
+
+    <aside>
+
+        <ul>
+
+            <li><a href="#">Todo</a></li>
+            <li><a href="#">Computadoras</a></li>
+            <li><a href="#">Partes de computadoras</a></li>
+            <li><a href="#">Juegos</a></li>
+
+        </ul>
+
+    </aside>
+      
+    </div>
+
+        
+
+
+  </body>
+
+</html>

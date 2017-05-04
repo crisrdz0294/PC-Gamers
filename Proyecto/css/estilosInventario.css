@@ -1,0 +1,75 @@
+
+h2 {
+    
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+#busqueda {
+    
+
+
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 0px;
+
+    align-content: center;
+
+}
+
+.checkbox {
+
+    margin-top: 20px;
+    margin-left: 55px;
+
+}
+
+.panel-body {
+
+    border-color: #145a32;
+    border-radius: 10px;
+
+}
+
+.table th {
+
+    color: #145a32;
+
+}
+
+#tabla {
+
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+
+
+#tabla .caract {
+
+    resize: none;
+
+}
+
+#encabezadoTabla {
+
+    background: #145a32;
+    color: #000;
+    padding: 10px;
+
+}
+
+#artNuevo {
+
+    background: #cef4c7;
+
+}
+
+.panel-heading h4 {
+
+    color: white;
+
+}

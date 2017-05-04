@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#footerPrueba {
+    background: #1D7D7A;
+    margin-top: 1%;
+    padding-bottom: 70px; 
+    bottom: 0;
+
+}
+
+#myCarousel {
+    margin-top: 1%;
+}
+
+header {
+    padding-bottom: -50px; 
+    background: #1D7D7A;
+    
+}
+
+
+#modalUsuario{
+	 text-align:center;
+	 color:#F7F6F5;
+}
+
+#modalUsuario>input{
+	 text-align:center;
+}
+
+#botonLogin{
+	margin-top: -9%;
+	margin-left: 95%;
+}
+
+#imagenesIndex{
+    margin-left: 0%; 
+    width: 100%
+}
+
+
+/*section, article, figure {
+
+    display: block;
+
+}*/
+
+#seccion {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    /*width: 800px;*/
+
+}
+
+article {
+
+    width: 80%;
+
+}
+
+article header {
+
+    background: none;
+
+}
+
+article header h3 {
+
+    /*margin-right: 0px;*/
+
+}
+
+article img {
+
+    /*width: 100%;*/
+    /*width: inherit;*/
+
+}
+
+article figure figcaption {
+
+    margin-bottom: 20px;
+
+}
+
+article h3 {
+
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+article figure {
+
+    padding-left: 15px
+
+}
+
+article  span {
+
+    /*float: right;*/
+    margin-right: 50px;
+
+}
+
+
+#barraNavbar {
+
+    background: #1D7D7A;
+
+}
+
+#barraNavbar h1 {
+
+    color: #FFFFFF;
+
+
+}
+
+#formularioUsuario{
+    width: 350px;
+    
+    text-align: center;
+}
+#formularioUsuario input{
+    text-align: center;
+}
+
+#formularioUsuario select{
+ 
+    
+    text-align-last:center;
+}
+
